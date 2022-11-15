@@ -13,24 +13,32 @@
         android:theme="@style/Theme.TaskManager"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
-            android:exported="false" android:theme="@style/Theme.TaskManager1">
-        </activity>
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.TaskManager1">
 
+        </activity>
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:theme="@style/Theme.TaskManager1">
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TaskManager1" />
         <activity
             android:name=".SplashScreenActivity"
-            android:exported="true" android:theme="@style/Theme.TaskManager1">
+            android:exported="true"
+            android:theme="@style/Theme.TaskManager1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

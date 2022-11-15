@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "938853033398",
-    "project_id": "task-manager-79189",
-    "storage_bucket": "task-manager-79189.appspot.com"
+    "project_number": "283422867818",
+    "project_id": "task-manager-96f19",
+    "storage_bucket": "task-manager-96f19.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:938853033398:android:3f6d2218931deb5b6fcd17",
+        "mobilesdk_app_id": "1:283422867818:android:7819b05aa69a6a3986e513",
         "android_client_info": {
-          "package_name": "com.kasspel.taskmanager"
+          "package_name": "com.example.taskmanager"
         }
       },
       "oauth_client": [
         {
-          "client_id": "938853033398-onbvnn4ppdgcohrhu88dpu0jiolijo1s.apps.googleusercontent.com",
+          "client_id": "283422867818-gdba1ue8jpi5mrqja9dc3dsstcre65eg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBvoEPtqdBNOiC_Ug5FIBL5menL6Yr9Qwk"
+          "current_key": "AIzaSyDut6lONbLAaIXPlApU_ggdRLRhUfajDvc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "938853033398-onbvnn4ppdgcohrhu88dpu0jiolijo1s.apps.googleusercontent.com",
+              "client_id": "283422867818-gdba1ue8jpi5mrqja9dc3dsstcre65eg.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
