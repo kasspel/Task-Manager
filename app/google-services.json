@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "938853033398",
+    "project_id": "task-manager-79189",
+    "storage_bucket": "task-manager-79189.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938853033398:android:3f6d2218931deb5b6fcd17",
+        "android_client_info": {
+          "package_name": "com.kasspel.taskmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938853033398-onbvnn4ppdgcohrhu88dpu0jiolijo1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvoEPtqdBNOiC_Ug5FIBL5menL6Yr9Qwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938853033398-onbvnn4ppdgcohrhu88dpu0jiolijo1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
