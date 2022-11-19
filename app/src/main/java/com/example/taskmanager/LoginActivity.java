@@ -77,11 +77,11 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(LoginActivity.this, "Вы авторизованы", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, R.string.you_auth, Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent (LoginActivity.this, MainActivity.class);
                             startActivity(intent);
                         } else {
-                            Toast.makeText(LoginActivity.this, "Вы не авторизованы", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(LoginActivity.this, R.string.you_not_auth, Toast.LENGTH_SHORT).show();
                         }
                         progressBar.setVisibility(View.GONE);
                     }

@@ -13,32 +13,40 @@
         android:theme="@style/Theme.TaskManager"
         tools:targetApi="31">
         <activity
-            android:name=".RegisterActivity"
-            android:theme="@style/Theme.TaskManager1">
-
+            android:name=".DailyMainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
         <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.TaskManager1"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
             android:name=".ResetPasswordActivity"
-            android:theme="@style/Theme.TaskManager1">
-
-        </activity>
+            android:theme="@style/Theme.TaskManager1"
+            android:windowSoftInputMode="adjustResize"></activity>
         <activity
             android:name=".LoginActivity"
             android:exported="false"
-            android:theme="@style/Theme.TaskManager1" />
+            android:theme="@style/Theme.TaskManager1"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".SplashScreenActivity"
-            android:exported="true"
+            android:exported="false"
             android:theme="@style/Theme.TaskManager1">
+            /* */
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
     </application>
 
 </manifest>

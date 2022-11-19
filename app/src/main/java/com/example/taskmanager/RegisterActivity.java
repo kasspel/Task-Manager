@@ -270,13 +270,13 @@ public class RegisterActivity extends AppCompatActivity {
                                     try {
                                         throw task.getException();
                                     } catch (FirebaseAuthWeakPasswordException e) {
-                                        editTextPassword.setError("Ваш пароль слишком слабый. Используйте буквы буквы, символы и цифры");
+                                        editTextPassword.setError(getString(R.string.pas_weak));
                                         editTextPassword.requestFocus();
                                     } catch (FirebaseAuthInvalidCredentialsException e) {
-                                        editTextPassword.setError("Ваш пароль не действительный или уже используется. Повторите вход");
+                                        editTextPassword.setError(getString(R.string.pas_invalid_use));
                                         editTextPassword.requestFocus();
                                     } catch (FirebaseAuthUserCollisionException e) {
-                                        editTextPassword.setError("Пользователь с такой почтой уже существует. Используйте другую почту");
+                                        editTextPassword.setError(getString(R.string.user_exist));
                                         editTextPassword.requestFocus();
                                     } catch (Exception e) {
                                         Log.e(TAG, e.getMessage());

@@ -27,7 +27,7 @@
     <string name="reset_title">Восстановление пароля</string>
     <string name="reset_password">Восстановить пароль</string>
     <string name="grid_title">Инструменты :</string>
-    <string name="dailyTask">Ежедневные цели</string>
+    <string name="dailyTask">Ежедневные задачи</string>
     <string name="notes">Заметки</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
@@ -38,4 +38,9 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="you_auth">Вы авторизованы</string>
+    <string name="you_not_auth">Вы не авторизованы</string>
+    <string name="pas_weak">Ваш пароль слишком слабый. Используйте буквы буквы, символы и цифры</string>
+    <string name="pas_invalid_use">Ваш пароль не действительный или уже используется. Повторите вход</string>
+    <string name="user_exist">Пользователь с такой почтой уже существует. Используйте другую почту</string>
 </resources>
